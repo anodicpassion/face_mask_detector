@@ -90,3 +90,7 @@ The trained model will be saved to: `model/mask_detector_model.h5`
 python3 test_real_time.py
 ```
 Press q to exit the webcam window.
+
+## 📜 License
+
+GNU GENERAL PUBLIC LICENSE
