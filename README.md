@@ -74,7 +74,7 @@ pip install -r requirements.txt
 bash data/download.bash         # On Windows: read download_data_manually.txt
 ```
 
-## 📦 Running the Project
+## 🚀 Running the Project
 
 
 ### 1. Train the Model
