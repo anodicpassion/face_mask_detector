@@ -27,8 +27,8 @@ A real-time face mask detection system built with TensorFlow, Keras, OpenCV, and
 │   └── haarcascade_frontalface_default.xml
 ├── model
 │   └── mobilenet_v2.h5
-├── requirements.txt 
 ├── preprocess.py
+├── requirements.txt 
 ├── test_real_time.py
 └── train.py
 
