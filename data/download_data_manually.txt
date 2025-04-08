@@ -1,0 +1,2 @@
+To download the data:
+https://www.kaggle.com/datasets/omkargurav/face-mask-dataset?resource=download
