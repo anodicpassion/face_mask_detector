@@ -1,3 +1,4 @@
 .idea
 .venv
 .DS_Store
+model/mask_detector_model.h5
