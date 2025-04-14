@@ -34,3 +34,64 @@ A real-time face mask detection system built with TensorFlow, Keras, OpenCV, and
 
 4 directories, 11 files
 ```
+---
+
+## 🧠 Model
+
+- **Architecture**: MobileNetV2 (Transfer Learning)
+- **Input Shape**: 224x224x3
+- **Loss Function**: Binary Crossentropy
+- **Optimizer**: Adam
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/anodicpassion/face_mask_detector.git
+cd face_mask_detector
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python3 -m venv venv            # On Windows: python -m venv venv 
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+```
+
+
+### 3. Install Dependencies 
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download data
+
+```bash
+bash data/download.bash         # On Windows: read download_data_manually.txt
+```
+
+## 📦 Running the Project
+
+
+### 1. Train the Model
+
+```bash
+python3 train.py
+```
+The trained model will be saved to: `model/mask_detector_model.h5`
+
+### 2. Run Real-Time Face Mask Detection
+
+```bash
+python3 test_real_time.py
+```
+Press q to exit the webcam window.
+
+
+
+
+
