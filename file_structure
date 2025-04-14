@@ -1,0 +1,17 @@
+.
+├── LICENSE
+├── data
+│   ├── download.bash
+│   └── download_data_manually.txt
+├── evaluate.py
+├── file_structure
+├── haarCascade
+│   ├── __init__.py
+│   └── haarcascade_frontalface_default.xml
+├── model
+│   └── mobilenet_v2.h5
+├── preprocess.py
+├── test_real_time.py
+└── train.py
+
+4 directories, 11 files
